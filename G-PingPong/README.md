@@ -1,6 +1,7 @@
-#Requirements
-Python
-G-Python
+# Requirements
+
+- Python
+- G-Python
 
 #Commands
 - :phelp - to see all commands
