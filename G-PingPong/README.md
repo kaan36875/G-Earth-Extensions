@@ -3,7 +3,7 @@
 - Python
 - G-Python
 
-#Commands
+# Commands
 - :phelp - to see all commands
 - :psetup - Starts the chair, tile, and ball setup
 - :rstart - Starts the G-PingPong
