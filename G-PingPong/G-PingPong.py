@@ -33,7 +33,11 @@ STOP_CMD = ":pstop"
 furniclick = in_setup = on = False
 left = None                      # The side you playing on
 
-chair = tile = ball = [[], []]   # Coord for both side, x[0] left, x[1] right
+# Coord for both side, x[0] left, x[1] right
+chair = [[], []]
+tile = [[], []]
+ball = [[], []]
+
 ball_id = 0                      # Ball's Furni ID
 
 
@@ -47,7 +51,10 @@ def chat(message):   # Sends client messages
 def reset():
     global chair, tile, ball, ball_id
 
-    chair = tile = ball = [[], []]
+    chair = [[], []]
+    tile = [[], []]
+    ball = [[], []]
+
     ball_id = 0
 
 
