@@ -38,7 +38,7 @@ chair = [[], []]
 tile = [[], []]
 ball = [[], []]
 
-ball_id = 0                      # Ball's Furni ID
+ball_id = None                      # Ball's Furni ID
 
 
 def walk(x, y):       # Makes the user walk to coords
@@ -55,7 +55,7 @@ def reset():
     tile = [[], []]
     ball = [[], []]
 
-    ball_id = 0
+    ball_id = None
 
 
 def speech(p): # User used the command
@@ -111,7 +111,8 @@ def setup(p): # User clicks to choose coords
 
     if in_setup:
         x, y = p.packet.read('ii')
-
+        chat('Please click the left chair.')
+        
         if not chair[0]:
             chair[0] = [x, y]
             chat(f"Left chair : {chair[0]}")
