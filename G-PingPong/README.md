@@ -27,4 +27,3 @@ How to
 - `USER_MOVE` packet outgoing (blue) walk on a tile
 - `USE_FURNI` double click on a furni (outgoing)
 - `WIRED_MOVE_FURNI` when a furni is moove by a wired (set position & state), incoming packet
-=======
