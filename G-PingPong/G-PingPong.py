@@ -169,9 +169,9 @@ def pingpong(p):
             walk(chair[0][0], chair[0][1])
     else:
         if ball[0] == [x, y]:
-            walk(chair[1][0], chair[1][0])
+            walk(chair[1][0], chair[1][1])
         elif ball[1] == [x, y]:
-            walk(tile[1][0], tile[1][0])
+            walk(tile[1][0], tile[1][1])
 
 
 ext.intercept(Direction.TO_SERVER, speech, SPEECH_OUT)
